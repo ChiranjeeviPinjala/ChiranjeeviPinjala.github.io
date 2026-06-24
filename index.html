@@ -1,102 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chiranjeevi Pinjala | DevOps Engineer</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chiranjeevi Pinjala — DevOps & Cloud Engineer</title>
+<meta name="description" content="Chiranjeevi Pinjala — DevOps & Cloud Engineer. AWS, Terraform, Jenkins, Python, Infrastructure Automation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div class="layout">
+<canvas id="particle-canvas"></canvas>
+<div class="grain"></div>
 
-    <aside class="sidebar">
-        <h1>Chiranjeevi Pinjala</h1>
-        <p class="role">DevOps & Cloud Engineer</p>
+<nav>
+  <div class="nav-logo">CP<span>.</span></div>
+  <div class="nav-dots">
+    <a class="nav-dot active" data-label="Intro" href="#hero" aria-label="Go to intro"></a>
+    <a class="nav-dot" data-label="Experience" href="#experience" aria-label="Go to experience"></a>
+    <a class="nav-dot" data-label="Skills" href="#skills" aria-label="Go to skills"></a>
+    <a class="nav-dot" data-label="Awards" href="#awards" aria-label="Go to awards"></a>
+    <a class="nav-dot" data-label="Education" href="#education" aria-label="Go to education"></a>
+    <a class="nav-dot" data-label="Contact" href="#contact" aria-label="Go to contact"></a>
+  </div>
+</nav>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#certifications">Certifications</a>
-            <a href="#education">Education</a>
-        </nav>
+<div class="content">
 
-        <div class="contact">
-            <a href="mailto:chiranjeevi9453@gmail.com">Email</a>
-            <a href="https://linkedin.com/in/chiranjeevi-pinjala" target="_blank">LinkedIn</a>
+  <header class="hero" id="hero">
+    <div class="hero-eyebrow">Available for opportunities</div>
+    <h1>Chiranjeevi<br>Pinjala<span class="last">.</span></h1>
+    <div class="hero-role">I am a <span id="typewriter"></span></div>
+    <p class="hero-summary">
+      Results-driven <strong>DevOps & Cloud Engineer</strong> with 4.6 years building and automating cloud
+      infrastructure on AWS and Terraform. I've migrated 100+ projects to updated providers with
+      <strong>zero production downtime</strong>, and built CI/CD pipelines and middleware integrated with
+      Splunk and Dynatrace for full-stack observability.
+    </p>
+    <div class="hero-meta">
+      <span>📍 Hyderabad, IN</span>
+      <span class="dot-sep">•</span>
+      <a href="mailto:chiranjeevi9453@gmail.com">chiranjeevi9453@gmail.com</a>
+      <span class="dot-sep">•</span>
+      <a href="tel:+919182121139">+91 91821 21139</a>
+      <span class="dot-sep">•</span>
+      <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><div class="num" data-target="4.6" data-suffix="" data-decimal="true">0</div><div class="label">Years Experience</div></div>
+      <div class="stat"><div class="num" data-target="100" data-suffix="+">0</div><div class="label">Projects Migrated</div></div>
+      <div class="stat"><div class="num" data-target="70" data-suffix="%">0</div><div class="label">Faster Validation</div></div>
+    </div>
+    <div class="scroll-cue"><div class="line"></div>Scroll</div>
+  </header>
+
+  <section id="experience">
+    <div class="section-head reveal">
+      <span class="section-tag">Pipeline</span>
+      <h2>Professional Experience</h2>
+    </div>
+
+    <div class="pipeline">
+      <div class="job reveal">
+        <div class="job-node"></div>
+        <div class="job-status"><span class="pip-dot"></span>Currently deployed</div>
+        <div class="job-head">
+          <span class="job-title">DevOps Engineer — Senior Associate Consultant</span>
+          <span class="job-time">Aug 2025 — Present</span>
         </div>
-    </aside>
+        <div class="job-org">Infosys &nbsp;·&nbsp; Client: <span class="client">Bank of America</span> &nbsp;·&nbsp; Hyderabad, IN</div>
+        <ul class="job-list">
+          <li>Provisioned and managed private cloud infrastructure using Terraform, migrating 100+ projects to the latest provider version with zero production downtime.</li>
+          <li>Resolved all provider version compatibility errors during migration, updating deprecated code blocks to meet updated Terraform module standards.</li>
+          <li>Managed end-to-end server lifecycle: decommissioning, VM/memory resize, OS upgrades, timezone configuration, and AIT mapping via Jira.</li>
+          <li>Automated Terraform provisioning pipelines in Jenkins — triggering plan and apply stages for consistent, auditable deployments across environments.</li>
+          <li>Managed infrastructure code with Git and GitHub using feature branching and GitFlow, enabling clean version control and rollback capability.</li>
+          <li>Built middleware servers integrated with MQ Client, Splunk, and Dynatrace for centralized log monitoring and application performance observability.</li>
+        </ul>
+      </div>
 
-    <main class="main">
+      <div class="job reveal">
+        <div class="job-node"></div>
+        <div class="job-status"><span class="pip-dot"></span>Build complete</div>
+        <div class="job-head">
+          <span class="job-title">Python & DevOps Engineer — Associate Consultant</span>
+          <span class="job-time">Jan 2022 — Jul 2025</span>
+        </div>
+        <div class="job-org">Capgemini &nbsp;·&nbsp; Client: <span class="client">IKEA</span> &nbsp;·&nbsp; Bangalore, IN</div>
+        <ul class="job-list">
+          <li>Designed and co-developed ITDT, a Python automation tool using Pandas and NumPy that replaced manual trader file validation — cutting processing time by 70%.</li>
+          <li>Wrote and maintained AWS Lambda scripts for trade file processing and configured Security Groups for secure inter-service data flow.</li>
+          <li>Managed L2/L3 application support for IKEA, resolving production tickets, running Root Cause Analysis, and maintaining incident documentation.</li>
+          <li>Coordinated with global stakeholders across the US, China, Sweden, and South Korea for incident updates, change requests, and delivery timelines.</li>
+          <li>Maintained SLAs for critical trade applications, ensuring minimal disruption across multiple regions.</li>
+          <li>Configured Jenkins CI/CD pipelines and used Bitbucket for source control and pull-request workflows across project teams.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-        <section id="about">
-            <h2>About Me</h2>
+  <section id="skills">
+    <div class="section-head reveal">
+      <span class="section-tag">Stack</span>
+      <h2>Technical Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card c-cyan reveal">
+        <h3><span class="sw"></span>Cloud & Infrastructure as Code</h3>
+        <div class="tag-row">
+          <span class="tag">AWS (S3, Lambda)</span><span class="tag">Security Groups</span><span class="tag">IAM</span>
+          <span class="tag">Terraform</span><span class="tag">Private Cloud</span>
+        </div>
+      </div>
+      <div class="skill-card c-pink reveal">
+        <h3><span class="sw"></span>CI/CD & DevOps</h3>
+        <div class="tag-row">
+          <span class="tag">Jenkins</span><span class="tag">GitHub</span><span class="tag">Bitbucket</span>
+          <span class="tag">Jira</span><span class="tag">Infra Automation</span><span class="tag">VM Management</span>
+        </div>
+      </div>
+      <div class="skill-card c-amber reveal">
+        <h3><span class="sw"></span>Programming</h3>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">ETL Pipelines</span>
+          <span class="tag">Bash / Shell</span>
+        </div>
+      </div>
+      <div class="skill-card c-indigo reveal">
+        <h3><span class="sw"></span>Infra Operations</h3>
+        <div class="tag-row">
+          <span class="tag">Linux</span><span class="tag">OS Upgrades</span><span class="tag">Server Decommission</span>
+          <span class="tag">AIT Mapping</span><span class="tag">Memory & VM Resize</span><span class="tag">Timezone Config</span>
+        </div>
+      </div>
+      <div class="skill-card c-cyan reveal">
+        <h3><span class="sw"></span>Monitoring & ITSM</h3>
+        <div class="tag-row">
+          <span class="tag">Splunk</span><span class="tag">Dynatrace</span><span class="tag">MQ Client</span>
+          <span class="tag">ServiceNow</span><span class="tag">RCA Docs</span><span class="tag">Incident Mgmt</span>
+        </div>
+      </div>
+      <div class="skill-card c-pink reveal">
+        <h3><span class="sw"></span>Collaboration</h3>
+        <div class="tag-row">
+          <span class="tag">Global Stakeholder Mgmt</span><span class="tag">Cross-team Comms</span><span class="tag">Tech Documentation</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <p>
-                DevOps Engineer with 4.6+ years of experience in
-                Terraform, Jenkins, AWS, Python, Linux and Infrastructure Automation.
-            </p>
-        </section>
+  <section id="awards">
+    <div class="section-head reveal">
+      <span class="section-tag">Recognition</span>
+      <h2>Awards & Certifications</h2>
+    </div>
+    <div class="dual-grid">
+      <div class="info-card reveal">
+        <h3>🏆 Award</h3>
+        <div class="award-item">
+          <div class="award-badge">★</div>
+          <div class="award-text">
+            <strong>Rising Star 2024</strong>
+            <span>Recognized by Capgemini for exceptional performance and contributions to project success.</span>
+          </div>
+        </div>
+      </div>
+      <div class="info-card reveal">
+        <h3>📜 Certifications</h3>
+        <ul class="cert-list">
+          <li><span class="cert-icon"></span>AWS Certified Cloud Practitioner</li>
+          <li><span class="cert-icon"></span>Microsoft Azure Fundamentals (AZ-900)</li>
+          <li><span class="cert-icon"></span>Python — Certified by HackerRank (Basic)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-        <section id="experience">
-            <h2>Experience</h2>
+  <section id="education">
+    <div class="section-head reveal">
+      <span class="section-tag">Foundation</span>
+      <h2>Education</h2>
+    </div>
+    <div class="edu-card reveal">
+      <div>
+        <h3>Bachelor of Technology</h3>
+        <p>Sri Venkatesa Perumal College of Engineering and Technology</p>
+        <p>Jawaharlal Nehru Technological University, Anantapur · Apr 2017 — Jul 2021</p>
+      </div>
+      <div class="edu-cgpa">7.55<span>CGPA</span></div>
+    </div>
+  </section>
 
-            <div class="card">
-                <h3>Infosys</h3>
-                <p>Senior Associate Consultant</p>
-                <p>Aug 2025 - Present</p>
-            </div>
+  <section class="contact-section" id="contact">
+    <h2>Let's build something <span class="hl">reliable</span>.</h2>
+    <p>Open to DevOps, Cloud, and Site Reliability roles. Reach out for collaborations, referrals, or just to talk infrastructure.</p>
+    <div class="contact-links">
+      <a class="contact-btn primary" href="mailto:chiranjeevi9453@gmail.com">✉ Email Me</a>
+      <a class="contact-btn" href="tel:+919182121139">📞 +91 91821 21139</a>
+      <a class="contact-btn" href="https://linkedin.com" target="_blank" rel="noopener">in LinkedIn</a>
+    </div>
+  </section>
 
-            <div class="card">
-                <h3>Capgemini</h3>
-                <p>Associate Consultant</p>
-                <p>Jan 2022 - Jul 2025</p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-
-            <div class="skills">
-                <span>Terraform</span>
-                <span>AWS</span>
-                <span>Jenkins</span>
-                <span>Python</span>
-                <span>Linux</span>
-                <span>Git</span>
-                <span>Bitbucket</span>
-            </div>
-        </section>
-
-        <section id="certifications">
-            <h2>Certifications</h2>
-
-            <ul>
-                <li>AWS Cloud Practitioner</li>
-                <li>Azure AZ-900</li>
-                <li>Python HackerRank</li>
-            </ul>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-
-            <p>
-                B.Tech (ECE)<br>
-                Sri Venkatesa Perumal College of Engineering & Technology
-            </p>
-        </section>
-
-    </main>
+  <footer>
+    Designed & built for <span>Chiranjeevi Pinjala</span> — © 2026
+  </footer>
 
 </div>
+
+<script>
+/* ============ PARTICLE CANVAS ============ */
+(function(){
+  const canvas = document.getElementById('particle-canvas');
+  const ctx = canvas.getContext('2d');
+  let w, h, particles = [];
+  const colors = ['#00e5ff', '#ff2d78', '#ffb84d', '#7d6bff'];
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function resize(){
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  const COUNT = window.innerWidth < 720 ? 55 : 110;
+  for(let i=0;i<COUNT;i++){
+    particles.push({
+      x: Math.random()*w,
+      y: Math.random()*h,
+      vx: (Math.random()-0.5)*0.25,
+      vy: (Math.random()-0.5)*0.25,
+      r: Math.random()*1.8 + 0.6,
+      color: colors[Math.floor(Math.random()*colors.length)]
+    });
+  }
+
+  let mouse = { x: -9999, y: -9999 };
+  window.addEventListener('mousemove', e => { mouse.x = e.clientX; mouse.y = e.clientY; });
+  window.addEventListener('mouseleave', () => { mouse.x = -9999; mouse.y = -9999; });
+
+  const LINK_DIST = 130;
+
+  function tick(){
+    ctx.clearRect(0,0,w,h);
+
+    // update
+    for(const p of particles){
+      p.x += p.vx;
+      p.y += p.vy;
+      if(p.x < 0 || p.x > w) p.vx *= -1;
+      if(p.y < 0 || p.y > h) p.vy *= -1;
+
+      // gentle attraction toward mouse
+      const dx = mouse.x - p.x, dy = mouse.y - p.y;
+      const dist = Math.sqrt(dx*dx + dy*dy);
+      if(dist < 180){
+        p.x += dx * 0.0025;
+        p.y += dy * 0.0025;
+      }
+    }
+
+    // draw links
+    for(let i=0;i<particles.length;i++){
+      for(let j=i+1;j<particles.length;j++){
+        const a = particles[i], b = particles[j];
+        const dx = a.x-b.x, dy = a.y-b.y;
+        const dist = Math.sqrt(dx*dx+dy*dy);
+        if(dist < LINK_DIST){
+          const alpha = (1 - dist/LINK_DIST) * 0.18;
+          ctx.strokeStyle = a.color;
+          ctx.globalAlpha = alpha;
+          ctx.lineWidth = 0.6;
+          ctx.beginPath();
+          ctx.moveTo(a.x, a.y);
+          ctx.lineTo(b.x, b.y);
+          ctx.stroke();
+        }
+      }
+    }
+    ctx.globalAlpha = 1;
+
+    // draw dots
+    for(const p of particles){
+      ctx.beginPath();
+      ctx.fillStyle = p.color;
+      ctx.shadowColor = p.color;
+      ctx.shadowBlur = 6;
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI*2);
+      ctx.fill();
+    }
+    ctx.shadowBlur = 0;
+
+    if(!reduceMotion) requestAnimationFrame(tick);
+  }
+  tick();
+})();
+
+/* ============ TYPEWRITER ============ */
+(function(){
+  const el = document.getElementById('typewriter');
+  const roles = ['DevOps Engineer', 'Cloud Infrastructure Specialist', 'Terraform & AWS Practitioner', 'CI/CD Pipeline Builder'];
+  let r = 0, c = 0, deleting = false;
+
+  function step(){
+    const word = roles[r];
+    if(!deleting){
+      c++;
+      el.textContent = word.slice(0, c);
+      if(c === word.length){ deleting = true; setTimeout(step, 1600); return; }
+      setTimeout(step, 65);
+    } else {
+      c--;
+      el.textContent = word.slice(0, c);
+      if(c === 0){ deleting = false; r = (r+1) % roles.length; setTimeout(step, 300); return; }
+      setTimeout(step, 35);
+    }
+  }
+  step();
+})();
+
+/* ============ COUNT-UP STATS ============ */
+(function(){
+  const stats = document.querySelectorAll('.stat .num');
+  let done = false;
+  function animate(){
+    if(done) return;
+    done = true;
+    stats.forEach(el => {
+      const target = parseFloat(el.dataset.target);
+      const suffix = el.dataset.suffix || '';
+      const isDecimal = el.dataset.decimal === 'true';
+      let cur = 0;
+      const steps = 50;
+      const inc = target / steps;
+      let i = 0;
+      const timer = setInterval(() => {
+        i++;
+        cur += inc;
+        if(i >= steps){ cur = target; clearInterval(timer); }
+        el.textContent = (isDecimal ? cur.toFixed(1) : Math.round(cur)) + suffix;
+      }, 28);
+    });
+  }
+  setTimeout(animate, 900);
+})();
+
+/* ============ SCROLL REVEAL ============ */
+(function(){
+  const items = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  items.forEach(i => obs.observe(i));
+})();
+
+/* ============ NAV ACTIVE DOT ON SCROLL ============ */
+(function(){
+  const sections = document.querySelectorAll('section, .hero');
+  const dots = document.querySelectorAll('.nav-dot');
+  const map = {};
+  dots.forEach(d => map[d.getAttribute('href').slice(1)] = d);
+
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        dots.forEach(d => d.classList.remove('active'));
+        const dot = map[entry.target.id];
+        if(dot) dot.classList.add('active');
+      }
+    });
+  }, { threshold: 0.5 });
+  sections.forEach(s => obs.observe(s));
+})();
+</script>
 
 </body>
 </html>
